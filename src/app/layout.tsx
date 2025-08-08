@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Insight",
   description: "Private, AI-powered knowledge engine.",
+  icons: {
+	icon: '/icon.svg',
+  },
 };
 
 export default function RootLayout({
